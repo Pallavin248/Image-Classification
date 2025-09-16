@@ -15,6 +15,9 @@ The project demonstrates data preprocessing, model building, training, evaluatio
 
 ---
 
+# --- Dataset ---
+kaggle datasets download -d alsaniipe/flowers-multiclass-datasets --unzip -p dataset
+
 ## 📂 Project Structure
 Deep-learning-image-classification/
 │── data/ # Dataset (optional, not uploaded if large)
@@ -241,5 +244,4 @@ def test_random_prediction():
 test_random_prediction()
 
 
-#dataset
-kaggle datasets download -d alsaniipe/flowers-multiclass-datasets --unzip -p dataset
+
