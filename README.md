@@ -239,3 +239,7 @@ def test_random_prediction():
     return predict_from_image(sample['image_path'])
 
 test_random_prediction()
+
+
+#dataset
+kaggle datasets download -d alsaniipe/flowers-multiclass-datasets --unzip -p dataset
